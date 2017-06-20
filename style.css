@@ -1,0 +1,100 @@
+main {
+  max-width: 512px;
+  padding: 48px 12px 64px 12px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: left;
+}
+
+h1 {
+  /*color: #d54a45;*/
+  line-height: 48px;
+}
+
+h2 {
+  line-height: 48px;
+  margin-top: 48px;
+  font-size: 28px;
+  vertical-align: middle;
+}
+
+h2 > a {
+  text-decoration: none;
+}
+
+body, p {
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+p {
+  text-align: justify;
+}
+
+body {
+  background: #fefefe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1.title {
+  position: relative;
+}
+
+img.logo {
+  position: absolute;
+  float: left;
+  display: block;
+  top: 24px;
+  left: calc(-96px + -48px);
+  width: 96px;
+}
+
+h2.tagline {
+  margin-top: 24px;
+  text-align: left;
+}
+
+em.highlight {
+  font-style: normal;
+  background: #ecff00;
+  padding: 0.1em 0.3em;
+}
+
+span.subtle {
+  color: #c0c0c0;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+}
+
+ul.footer {
+  list-style: none;
+  margin-top: 64px;
+  padding-left: 0;
+}
+
+ul.footer > li {
+  display: inline;
+  margin-right: 24px;
+}
+
+ul.footer > li > a {
+  color: #a0a0a0;
+  text-decoration: none;
+}
+
+ul.footer > li > a:hover {
+  color: #000;
+  text-decoration: none;
+  transition: color 200ms linear;
+}
